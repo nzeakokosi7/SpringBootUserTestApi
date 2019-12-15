@@ -5,7 +5,7 @@ Default port is 8080 and the server runs initially with an empty MockDB and data
 
 Subsequently the project would be refactored with JPA to support a MySQL database.
 
-NB: All params are of the string datatype.
+### NB: All params are of the string datatype.
 
 ## Endpoints
 ----------------------------------------------------------------------------------
