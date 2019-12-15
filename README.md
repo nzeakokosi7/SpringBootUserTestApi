@@ -1,9 +1,11 @@
 # SpringBootUserTestApi
 
 This is a demo java api server implementing basic CRUD operations with SpringBoot.
-Default port is 8080 and the server runs intially with an empty MockDB and data persistence is only for the livetime of the server.
+Default port is 8080 and the server runs initially with an empty MockDB and data persistence is only for the livetime of the server.
 
 Subsequently the project would be refactored with JPA to support a MySQL database.
+
+NB: All params are of the string datatype.
 
 ## Endpoints
 ----------------------------------------------------------------------------------
