@@ -9,20 +9,20 @@ Subsequently the project would be refactored with JPA to support a MySQL databas
 ----------------------------------------------------------------------------------
 
 ## GET: /users
-returns list of all users (returns an empty list at first).
+Returns list of all users (returns an empty list at first).
 
 ## GET: /user/**{id}**
-returns a user with the particular id if the user exists
+Returns a user with the particular id if the user exists.
 
 ## POST: /user/search
-searches the MockDB for user with similar userName to the search text
+Searches the MockDB for user with similar userName to the search text
 
 | BODY PARAMS | DESCRIPTION |
 | ------------- |:-------------:|
 | text     |  the search keyword |
 
 ## POST: /user
-adds a new user
+Adds a new user
 
 | BODY PARAMS | DESCRIPTION |
 | ------------- |:-------------:|
@@ -32,7 +32,7 @@ adds a new user
 | gender   | the user gender |
 
 ## PUT: /user/**{id}**
-updates the details of an existing user
+Updates the details of an existing user
 
 | BODY PARAMS | DESCRIPTION |
 | ------------- |:-------------:|
@@ -42,7 +42,7 @@ updates the details of an existing user
 | gender   | the user gender |
 
 ## DELETE: /user/**{id}**
-deletes a user entirely
+Deletes a user entirely
 
 
 
